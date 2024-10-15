@@ -1,6 +1,9 @@
 // Tipos de Datos en JS
 // 1. Undefined
-console.warn("--- Tipo de Dato UNDEFIEND");
+const bg = "linear-gradient(11deg, rgba(199,199,0,1) 0%, rgba(255,255,26,1) 33%, rgba(255,255,26,1) 86%)";
+const style_console = `background: ${bg}; color: white; border-radius: 6px; padding: 4px; font-size: 1.0rem; font-weight: bold`;
+console.log("%c1.- Tipo de Dato Undefiend", style_console);
+//console.warn("--- Tipo de Dato UNDEFIEND");
 let cliente;
 console.log(`El cliente es:  ${cliente}`);
 console.log(`El tipo de dato de la variable cliente es: ${typeof cliente}`);
@@ -12,7 +15,8 @@ console.log(`El cliente es:  ${cliente}`);
 console.log(`El tipo de dato de la variable cliente es: ${typeof cliente}`);
 // Undefined es el tipo de dato que por defecto se asigna a variables no inicializadas o no declaradas
 // 2. BOOLEAN
-console.warn("--- Tipo de Dato : BOOLEAN (Boleano - True/ False");
+console.log("%c2.---Tipo de Dato: BOOLEAN (Booleano - True/ False)", style_console);
+//console.warn("--- Tipo de Dato : BOOLEAN (Boleano - True/ False");
 let esPremium = "No lo sé";
 console.log(`¿Es el cliente Premium? : ${esPremium}`);
 console.log(
@@ -38,8 +42,9 @@ var cantidad;
 const costo_producto = 10.5;
 let saldo_cuenta = -2500.4;
 let monto_transaccion;
-console.warn(
-  "--- Tipo de Dato - NUMBER (Números, positivos, negativos, decimleas , flotantes");
+console.log("%c3.- Tipo de Dato Number (Positivos , Negativos , Decimales y Flotantes)", style_console);
+//console.warn(
+  //"--- Tipo de Dato - NUMBER (Números, positivos, negativos, decimleas , flotantes");
 console.log(
   `Tu saldo al día de hoy es de: ${saldo_cuenta},  (Tipo de Dato = ${typeof saldo_cuenta})`
 );
@@ -59,7 +64,8 @@ console.log(
 // STRING (Cadena de Caractéres)
 const alumno = "Yazmin Gutierrez Hernandez"
 let producto;
-console.warn("--- Tipo de Dato - STRING (Cadena de Caractéres");
+console.log("%c4.- Tipo de Dato -String (Cadena de Caracteres)", style_console);
+//console.warn("--- Tipo de Dato - STRING (Cadena de Caractéres");
 console.log(`El nombre del alumno es: ${alumno}, que es un tipo de dato ${typeof(alumno)}`);
 producto="MONITOR 20\"";
 console.log(`El nombre del producto es: ${producto}, que es un tipo de dato ${typeof(producto)}`);
@@ -68,7 +74,8 @@ console.log(`Más adelante podremos transformar el contenido de los STRINGS usan
 console.log(`O en su defecto a minúsculas: ${producto} => ${producto.toLowerCase()}`);
 // BIGINT (Enteros de Dimensiones Amplias) - Generalmente utilizado en sistemas matemáticos, físicos o espaciales donde se requiere de una excelente precisión numérica.
 // 5. BIGINT (Enteros de Dimensiones Amplias) - Generalmente utilizado en sistemas matemáticos, físicos o espaciales donde se requiere de una excelente precisión numérica.
-console.warn("--- Tipo de Dato - BIGINT (Número Ampplio)");
+//console.warn("--- Tipo de Dato - BIGINT (Número Ampplio)");
+console.log("%c5.- Tipo de Dato -BIGINT (Numoer Amplio)", style_console);
 const numeroGrande = 1234567890
 const numeroGrande2 = 12345678901234567890
 const numeroGrande3 = 12345678901234567890123456789
@@ -88,7 +95,8 @@ let numero = 238;
 // Si intentamos realizar una operación matemática entre estos dos tipos de datos, obtendremos un error crítico de operación.
 //console.log(`El resultado de la operación de: numeroGrande4/ numero es = a : ${numeroGrande4/BigInt(numero)}` );
 // 6. SYMBOL
-console.warn("--- Tipo de Dato - SYMBOL (Simbolo o Forzar la Unicidad)");
+console.log("%c6.- Tipo de Dato -SYMBOL(Simbolo o Forzar Unicidad)", style_console);
+//console.warn("--- Tipo de Dato - SYMBOL (Simbolo o Forzar la Unicidad)");
 // Declaramos diferentes variables con valores similares o iguales?
 const numero1 = 2;
 const numero2 = 2.0;
@@ -150,7 +158,8 @@ if(numero5 == numero9)
  else
      console.log(`Se han comparado los valores de  numero5 y numero9, detectando que NO tienen el mismo valor.`)
 // 7. NULL 
-console.warn("--- Tipo de Dato - NULL (Nulo o Vacío)");
+console.log("%c7.- Tipo de Dato -NULL (Nulo o Vacio)", style_console);
+//console.warn("--- Tipo de Dato - NULL (Nulo o Vacío)");
 // El tipo de dato nulo se asigna cuando el sistema o el usuario saben de la variable pero prefieren dejarlo vacío , bajo su consentimiento, a diferencia de UNDEFIEND que es un valor desconocido asignado por DEFAULT por JS.
 let nombreUsuario = null;
 let passUsuario = null;
@@ -181,7 +190,8 @@ console.log(`El usuario: ${nombreUsuario}, se ha logeado exitosamente, al tener 
     console.log("ambas variables tienen el mismo valor y el mismo tipo de datos"):
     console.log("la variables tienen el mismo valor , pero no el mismo tipo de dato ");
     // 8:FUNTION (fUNCIONES)
-    console.warn("---Tipo de dato FUNCTION (function)")
+    console.log("%c8.--Tipo de Dato FUNCTION (Function)", style_console);
+    //console.warn("---Tipo de dato FUNCTION (function)")
     //declaramos una funcion que nos permite recibir un parametro en este caso el nombre
     // de la persona a saludar y le enviamos un saludo , esta funcion la asignamos a una constante.
     const saludar = function(nombre){
