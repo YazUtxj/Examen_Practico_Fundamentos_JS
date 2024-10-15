@@ -170,3 +170,24 @@ console.log(`El usuario: ${nombreUsuario} esta intentado logearse con una contra
 generoUsuario="M"
 estatusRelacionSentimental=null
 console.log(`El usuario: ${nombreUsuario}, se ha logeado exitosamente, al tener acceso a su información de perfil podemos deducir que es del género ${generoUsuario} y que su estatus de relación es: ${estatusRelacionSentimental} y su última publicación la realizó el: ${fecha_ultimoPost}`);
+ //Comparando NULL VS UNDEFINED
+  // si bien UNDEFINED y NULL tienen el mismo valor , no tienen el mismo tipo de dato
+  console.log("COMPARACION DE LA EQUIDAD ENTRE UNDEFINED Y NULL :");
+  (fecha_ultimoPost==estatusRelacionSentimental)?
+  console.log("ambas variables tienen el mismo valor"):
+  console.log("la variable no tiene el mismo valor ");
+  console.log("COMPARACION DE LA IDENTIDAD ENTRE UNDEFINED :");
+    (fecha_ultimoPost===estatusRelacionSentimental)?
+    console.log("ambas variables tienen el mismo valor y el mismo tipo de datos"):
+    console.log("la variables tienen el mismo valor , pero no el mismo tipo de dato ");
+    // 8:FUNTION (fUNCIONES)
+    console.warn("---Tipo de dato FUNCTION (function)")
+    //declaramos una funcion que nos permite recibir un parametro en este caso el nombre
+    // de la persona a saludar y le enviamos un saludo , esta funcion la asignamos a una constante.
+    const saludar = function(nombre){
+      return `Hola , ${nombre} !`
+    }
+    //invocamos a la funcion declarada
+    console.log(saludar(`Yazmin`));
+    //Y Tipo de dato que tiene la constante
+    console.log(`El tipo de dato de la constante saludar es :${typeof(saludar)}`)
