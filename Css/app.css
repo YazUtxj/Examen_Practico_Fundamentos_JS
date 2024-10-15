@@ -3,7 +3,7 @@ agregar márgenes de tipo caja*/
 body {
     font-size: 1.6rem;
     font-family: 'Lato', sans-serif;
-    background-color: #577dbb;
+    background-color: #c4d1e7;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -11,17 +11,17 @@ body {
 header {
     padding: 3rem 0;
 }
-header h1 {
+ h1 {
     text-align: center;
     color: #ffffff;
-    font-size: 6rem;
+    font-size: 4rem;
 }
-header p {
+ p {
     color: #1b1b1b;
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 2.2rem;
 }
-header p a {
+ p a {
     text-decoration: none;
     color: #4cabea;
 }
