@@ -313,3 +313,4 @@ let seriesConTresTemporadas = seriesTrending2
 //Mostar los resultaods
 console.log("Serie con 3 temporadas que estan en la lista deseada")
 console.table(seriesConTresTemporadas);
+//Comentario que agregue para poder hacer merge
