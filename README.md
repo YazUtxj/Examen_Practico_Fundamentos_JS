@@ -11,7 +11,7 @@ Previo a inicializar el desarrollo de software para web usando el fremework de N
 |4|Introducion a objetos (String/BigInit/Symbol/Null/Function)|6|Finalizada|
 |5|Introducion a objetos |19|Finalizada
 |6|Arreglos |18|Finalizada|
-|7|Ciclos Condicionales  |18|Finalizada|
+|7|Ciclos Condicionales  |16|Finalizada|
 ## Autor 
 Yazmin Gutierrez Hernandez
 Unidad 1
